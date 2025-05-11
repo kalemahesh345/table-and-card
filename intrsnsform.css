@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 900;
+    height: 100px;
+    width: 150px;
+    border-radius: 50px;
+    transition: 5s;
+    transition: 5s linear;
+    /* transform: translateX(50%); */
+    /* transform: skewX(10deg); */
+    
+
+}
+.button:hover{
+    background-color: blue;
+    cursor: pointer;
+    transform: scale(150%) rotate(50deg);
+}
+/* .boxparent{
+    width:fit-content;
+    height: fit-content;
+    border:10px solid black;
+} */
